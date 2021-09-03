@@ -1,0 +1,21 @@
+{
+  "name": "scss-utf8",
+  "version": "0.0.1",
+  "description": "SCSS UTF-8",
+  "scripts": {
+    "start": "webpack serve --mode development --progress --color --port 8000 --compress",
+    "build": "webpack --mode production --progress --color",
+    "sass": "sass --style=compressed ./src/in.scss ./dist/in.scss.bom.min.css"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.2",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
